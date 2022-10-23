@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dog Lovers</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+        }
+       #upper-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-image: linear-gradient(to right , rgb(223, 245, 253), rgb(252, 252, 232));
+        height: 130px;
+        margin-top: 2rem;
+       }
+       #dropdown{
+        /* padding-left: 7rem; */
+        padding: 6px;
+       }
+       #lower-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 2rem;
+        column-gap: 2rem;
+        margin: 2rem;
+       }
+       img{
+        height: 200px;
+        width: 200px;
+       }
+
+    </style>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+</head>
+<body>
+
+    <div id="upper-container">
+        <select id="dropdown">
+            <!-- <option id="option" value=""></option> -->
+        </select>
+        <button id="image-btn">Get Image</button>
+    </div>
+
+    <div id="lower-container">
+
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+    <script src="Doggallery.js"></script>
+
+</body>
+</html>
